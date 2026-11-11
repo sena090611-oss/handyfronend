@@ -1,0 +1,40 @@
+/* ======================================================
+   VARIABLES DE COLOR DEL PROYECTO
+====================================================== */
+
+:root {
+  --color-primario: #12355b;         /* Azul oscuro */
+  --color-accion: #f4b942;           /* Amarillo / ámbar */
+  --color-fondo-principal: #ffffff;  /* Blanco */
+  --color-fondo-secundario: #f4f6f8; /* Gris muy claro */
+  --color-texto-principal: #1f2937;  /* Gris oscuro */
+  --color-texto-secundario: rgba(31, 41, 55, 0.6);
+
+  --color-exito: #22c55e;            /* Verde */
+  --color-exito-fondo: rgba(34, 197, 94, 0.12);
+
+  --color-alerta: #ef4444;           /* Rojo */
+  --color-alerta-fondo: rgba(239, 68, 68, 0.12);
+
+  /* Tonos de sombra reutilizados por el estilo "neumórfico" */
+  --sombra-oscura: rgba(163, 177, 198, 0.45);
+  --sombra-clara: rgba(255, 255, 255, 0.9);
+}
+
+
+/* ======================================================
+   ESTILOS BASE GLOBALES
+====================================================== */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--color-fondo-secundario);
+  color: var(--color-texto-principal);
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
